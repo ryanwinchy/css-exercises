@@ -4,13 +4,39 @@ body {
 
 img {
   width: 100px;
-  height: 100px;
+  height: 100px;  
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
 }
+
+.header {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.item-section {
+  display: flex;
+  gap: 52px;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align: center;
+}
+
+.info {
+  max-width: 200px;
+}
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
